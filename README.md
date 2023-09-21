@@ -1,0 +1,1 @@
+# Frontend_nuxt_application_for_events
