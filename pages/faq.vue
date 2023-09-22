@@ -66,11 +66,11 @@
 							<div class="offcanvas-social">
 								<h5>Contactez-nous</h5>
 								<ul class="social-links">
-									<li><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a>
-									<li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-									<li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-									<li><a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-									<li><a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+									<li><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+									<li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+									<li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="#" class="social-link"><i class="fab fa-youtube"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -619,11 +619,11 @@
 						<div class="footer-content">
 							<h4>Nous suivre</h4>
 							<ul class="social-links">
-								<li><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a>
-								<li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-								<li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-								<li><a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-								<li><a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+								<li><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+								<li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="#" class="social-link"><i class="fab fa-youtube"></i></a></li>
 							</ul>
 						</div>
 						

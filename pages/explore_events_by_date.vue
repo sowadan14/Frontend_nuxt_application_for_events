@@ -1,7 +1,6 @@
 <template>
-    <div>
-        <!-- Body Start-->
-	<div class="wrapper">
+	<div>
+		<div class="wrapper">
 		<div class="hero-banner">
 			<div class="container">
 				<div class="row justify-content-center">
@@ -85,13 +84,11 @@
 									<label><input type="radio" name="colorRadio" value="thisYear"><span>Cette année</span></label>
 									<label><input type="radio" name="colorRadio" value="nextYear"><span>L'année prochaine</span></label>
 								</div>
-
-
 								<div class="all event-box" style="display: block;">
 									<div class="row">
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev3.png" alt="">
 												</a>
@@ -114,11 +111,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev1.jpg" alt="">
 												</a>
@@ -141,12 +138,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>2h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev2.png" alt="">
 												</a>
@@ -169,10 +165,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>3h</span>
 												</div>
 											</div>
+											</div>
 										</div>
 										<div class=" col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev5.jpg" alt="">
 												</a>
@@ -195,10 +192,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev4.png" alt="">
 												</a>
@@ -223,11 +221,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>5h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev7.jpg" alt="">
 												</a>
@@ -250,11 +248,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev6.jpg" alt="">
 												</a>
@@ -277,11 +275,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev8.jpg" alt="">
 												</a>
@@ -304,15 +302,15 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>12h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 									</div>
 								</div>					
 								<div class="today event-box">
 									<div class="row">
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev3.png" alt="">
 												</a>
@@ -335,11 +333,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev1.jpg" alt="">
 												</a>
@@ -362,12 +360,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>2h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev2.png" alt="">
 												</a>
@@ -390,12 +387,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>3h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-									
-										
-										<div class=" col-xl-3 col-lg-4 col-md-6 col-sm-12">
+										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev5.jpg" alt="">
 												</a>
@@ -417,6 +413,7 @@
 													</div>
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
+											</div>
 											</div>
 										</div>
 									</div>
@@ -425,7 +422,7 @@
 									<div class="row">								
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev4.png" alt="">
 												</a>
@@ -450,11 +447,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>5h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev7.jpg" alt="">
 												</a>
@@ -477,11 +474,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev6.jpg" alt="">
 												</a>
@@ -504,11 +501,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev8.jpg" alt="">
 												</a>
@@ -531,7 +528,7 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>12h</span>
 												</div>
 											</div>
-										
+											</div>
 										</div>
 									</div>
 								</div>
@@ -539,7 +536,7 @@
 									<div class="row">
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev4.png" alt="">
 												</a>
@@ -564,11 +561,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>5h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev7.jpg" alt="">
 												</a>
@@ -591,11 +588,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev6.jpg" alt="">
 												</a>
@@ -618,11 +615,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
-										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+										<div class=" col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev8.jpg" alt="">
 												</a>
@@ -645,7 +642,7 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>12h</span>
 												</div>
 											</div>
-										
+											</div>
 										</div>
 									</div>
 								</div>
@@ -653,7 +650,7 @@
 									<div class="row">
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev3.png" alt="">
 												</a>
@@ -676,11 +673,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev1.jpg" alt="">
 												</a>
@@ -703,12 +700,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>2h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev2.png" alt="">
 												</a>
@@ -731,12 +727,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>3h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-									
-										
 										<div class=" col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev5.jpg" alt="">
 												</a>
@@ -759,15 +754,15 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
-										</div>
-											
+											</div>
+										</div>		
 									</div>
 								</div>
 								<div class="nextWeekend event-box">
 									<div class="row">
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev4.png" alt="">
 												</a>
@@ -792,11 +787,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>5h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev7.jpg" alt="">
 												</a>
@@ -819,11 +814,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev6.jpg" alt="">
 												</a>
@@ -846,11 +841,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev8.jpg" alt="">
 												</a>
@@ -873,7 +868,7 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>12h</span>
 												</div>
 											</div>
-										
+											</div>
 										</div>
 									</div>
 								</div>
@@ -881,116 +876,111 @@
 									<div class="row">
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-                                                <div class="event-thumbnail">
-                                                    <a href="venue_event_detail_view.html" class="thumbnail-img">
-                                                        <img src="images/event-imgs/ev3.png" alt="">
-                                                    </a>
-                                                    <span class="bookmark-icon" title="Bookmark"></span>
-                                                </div>
-                                                <div class="event-content">
-                                                    <a href="venue_event_detail_view.html" class="event-title"> La Semaine africaine de la communication s'ouvre à l'Université de Lomé </a>
-                                                    <div class="duration-price-remaining">
-                                                        <span class="duration-price">50 000 F CFA*</span>
-                                                        <span class="remaining"></span>
-                                                    </div>
-                                                </div>
-                                                <div class="event-footer">
-                                                    <div class="event-timing">
-                                                        <div class="publish-date">
-                                                            <span><i class="fa-solid fa-calendar-day me-2"></i>23 mai 2019</span>
-                                                            <span class="dot"><i class="fa-solid fa-circle"></i></span>
-                                                            <span>Jeudi, 14h 00</span>
-                                                        </div>
-                                                        <span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
-                                                    </div>
-                                                </div>
+												<div class="event-thumbnail">
+												<a href="venue_event_detail_view.html" class="thumbnail-img">
+													<img src="images/event-imgs/ev3.png" alt="">
+												</a>
+												<span class="bookmark-icon" title="Bookmark"></span>
+											</div>
+											<div class="event-content">
+												<a href="venue_event_detail_view.html" class="event-title"> La Semaine africaine de la communication s'ouvre à l'Université de Lomé </a>
+												<div class="duration-price-remaining">
+													<span class="duration-price">50 000 F CFA*</span>
+													<span class="remaining"></span>
+												</div>
+											</div>
+											<div class="event-footer">
+												<div class="event-timing">
+													<div class="publish-date">
+														<span><i class="fa-solid fa-calendar-day me-2"></i>23 mai 2019</span>
+														<span class="dot"><i class="fa-solid fa-circle"></i></span>
+														<span>Jeudi, 14h 00</span>
+													</div>
+													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
+												</div>
+											</div>
 											</div>
 										</div>
-
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-                                                <div class="event-thumbnail">
-                                                    <a href="online_event_detail_view.html" class="thumbnail-img">
-                                                        <img src="images/event-imgs/ev1.jpg" alt="">
-                                                    </a>
-                                                    <span class="bookmark-icon" title="Bookmark"></span>
-                                                </div>
-                                                <div class="event-content">
-                                                    <a href="online_event_detail_view.html" class="event-title">Salon des études en Europe 2020</a>
-                                                    <div class="duration-price-remaining">
-                                                        <span class="duration-price">45 000 F CFA*</span>
-                                                        <span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>6 restante</span>
-                                                    </div>
-                                                </div>
-                                                <div class="event-footer">
-                                                    <div class="event-timing">
-                                                        <div class="publish-date">
-                                                            <span><i class="fa-solid fa-calendar-day me-2"></i>27 octobre - 02 novembre 2020</span>
-                                                            <span class="dot"><i class="fa-solid fa-circle"></i></span>
-                                                            <span>Samedi, 11h 30 </span>
-                                                        </div>
-                                                        <span class="publish-time"><i class="fa-solid fa-clock me-2"></i>2h</span>
-                                                    </div>
-                                                </div>
-                                            </div>
+												<div class="event-thumbnail">
+												<a href="online_event_detail_view.html" class="thumbnail-img">
+													<img src="images/event-imgs/ev1.jpg" alt="">
+												</a>
+												<span class="bookmark-icon" title="Bookmark"></span>
+											</div>
+											<div class="event-content">
+												<a href="online_event_detail_view.html" class="event-title">Salon des études en Europe 2020</a>
+												<div class="duration-price-remaining">
+													<span class="duration-price">45 000 F CFA*</span>
+													<span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>6 restante</span>
+												</div>
+											</div>
+											<div class="event-footer">
+												<div class="event-timing">
+													<div class="publish-date">
+														<span><i class="fa-solid fa-calendar-day me-2"></i>27 octobre - 02 novembre 2020</span>
+														<span class="dot"><i class="fa-solid fa-circle"></i></span>
+														<span>Samedi, 11h 30 </span>
+													</div>
+													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>2h</span>
+												</div>
+											</div>
+											</div>
 										</div>
-										
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-                                                <div class="event-thumbnail">
-                                                    <a href="venue_event_detail_view.html" class="thumbnail-img">
-                                                        <img src="images/event-imgs/ev2.png" alt="">
-                                                    </a>
-                                                    <span class="bookmark-icon" title="Bookmark"></span>
-                                                </div>
-                                                <div class="event-content">
-                                                    <a href="venue_event_detail_view.html" class="event-title">La mode, objet d’un colloque international à l’UL!!!</a>
-                                                    <div class="duration-price-remaining">
-                                                        <span class="duration-price">Gratuit*</span>
-                                                        <span class="remaining"></span>
-                                                    </div>
-                                                </div>
-                                                <div class="event-footer">
-                                                    <div class="event-timing">
-                                                        <div class="publish-date">
-                                                            <span><i class="fa-solid fa-calendar-day me-2"></i>05 Mai</span>
-                                                            <span class="dot"><i class="fa-solid fa-circle"></i></span>
-                                                            <span>Dimanche, 16h 30 PM</span>
-                                                        </div>
-                                                        <span class="publish-time"><i class="fa-solid fa-clock me-2"></i>3h</span>
-                                                    </div>
-                                                </div>
-                                            </div>
+												<div class="event-thumbnail">
+												<a href="venue_event_detail_view.html" class="thumbnail-img">
+													<img src="images/event-imgs/ev2.png" alt="">
+												</a>
+												<span class="bookmark-icon" title="Bookmark"></span>
+											</div>
+											<div class="event-content">
+												<a href="venue_event_detail_view.html" class="event-title">La mode, objet d’un colloque international à l’UL!!!</a>
+												<div class="duration-price-remaining">
+													<span class="duration-price">Gratuit*</span>
+													<span class="remaining"></span>
+												</div>
+											</div>
+											<div class="event-footer">
+												<div class="event-timing">
+													<div class="publish-date">
+														<span><i class="fa-solid fa-calendar-day me-2"></i>05 Mai</span>
+														<span class="dot"><i class="fa-solid fa-circle"></i></span>
+														<span>Dimanche, 16h 30 PM</span>
+													</div>
+													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>3h</span>
+												</div>
+											</div>
+											</div>
 										</div>
-									
-										
 										<div class=" col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-                                                <div class="event-thumbnail">
-                                                    <a href="online_event_detail_view.html" class="thumbnail-img">
-                                                        <img src="images/event-imgs/ev5.jpg" alt="">
-                                                    </a>
-                                                    <span class="bookmark-icon" title="Bookmark"></span>
-                                                </div>
-                                                <div class="event-content">
-                                                    <a href="online_event_detail_view.html" class="event-title">EVALA</a>
-                                                    <div class="duration-price-remaining">
-                                                        <span class="duration-price">10 000 F CFA</span>
-                                                        <span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>7 restant</span>
-                                                    </div>
-                                                </div>
-                                                <div class="event-footer">
-                                                    <div class="event-timing">
-                                                        <div class="publish-date">
-                                                            <span><i class="fa-solid fa-calendar-day me-2"></i>23 Juillet</span>
-                                                            <span class="dot"><i class="fa-solid fa-circle"></i></span>
-                                                            <span>Dimanche, 17h 30</span>
-                                                        </div>
-                                                        <span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
-                                                    </div>
-                                                </div>
-                                            </div>
+												<div class="event-thumbnail">
+												<a href="online_event_detail_view.html" class="thumbnail-img">
+													<img src="images/event-imgs/ev5.jpg" alt="">
+												</a>
+												<span class="bookmark-icon" title="Bookmark"></span>
+											</div>
+											<div class="event-content">
+												<a href="online_event_detail_view.html" class="event-title">EVALA</a>
+												<div class="duration-price-remaining">
+													<span class="duration-price">10 000 F CFA</span>
+													<span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>7 restant</span>
+												</div>
+											</div>
+											<div class="event-footer">
+												<div class="event-timing">
+													<div class="publish-date">
+														<span><i class="fa-solid fa-calendar-day me-2"></i>23 Juillet</span>
+														<span class="dot"><i class="fa-solid fa-circle"></i></span>
+														<span>Dimanche, 17h 30</span>
+													</div>
+													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
+												</div>
+											</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -998,121 +988,7 @@
 									<div class="row">
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-                                                <div class="event-thumbnail">
-                                                    <a href="venue_event_detail_view.html" class="thumbnail-img">
-                                                        <img src="images/event-imgs/ev3.png" alt="">
-                                                    </a>
-                                                    <span class="bookmark-icon" title="Bookmark"></span>
-                                                </div>
-                                                <div class="event-content">
-                                                    <a href="venue_event_detail_view.html" class="event-title"> La Semaine africaine de la communication s'ouvre à l'Université de Lomé </a>
-                                                    <div class="duration-price-remaining">
-                                                        <span class="duration-price">50 000 F CFA*</span>
-                                                        <span class="remaining"></span>
-                                                    </div>
-                                                </div>
-                                                <div class="event-footer">
-                                                    <div class="event-timing">
-                                                        <div class="publish-date">
-                                                            <span><i class="fa-solid fa-calendar-day me-2"></i>23 mai 2019</span>
-                                                            <span class="dot"><i class="fa-solid fa-circle"></i></span>
-                                                            <span>Jeudi, 14h 00</span>
-                                                        </div>
-                                                        <span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-										</div>
-										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-											<div class="main-card mt-4">
-                                                <div class="event-thumbnail">
-                                                    <a href="online_event_detail_view.html" class="thumbnail-img">
-                                                        <img src="images/event-imgs/ev1.jpg" alt="">
-                                                    </a>
-                                                    <span class="bookmark-icon" title="Bookmark"></span>
-                                                </div>
-                                                <div class="event-content">
-                                                    <a href="online_event_detail_view.html" class="event-title">Salon des études en Europe 2020</a>
-                                                    <div class="duration-price-remaining">
-                                                        <span class="duration-price">45 000 F CFA*</span>
-                                                        <span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>6 restante</span>
-                                                    </div>
-                                                </div>
-                                                <div class="event-footer">
-                                                    <div class="event-timing">
-                                                        <div class="publish-date">
-                                                            <span><i class="fa-solid fa-calendar-day me-2"></i>27 octobre - 02 novembre 2020</span>
-                                                            <span class="dot"><i class="fa-solid fa-circle"></i></span>
-                                                            <span>Samedi, 11h 30 </span>
-                                                        </div>
-                                                        <span class="publish-time"><i class="fa-solid fa-clock me-2"></i>2h</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-									    </div>
-										
-										
-										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-											<div class="main-card mt-4">
-                                                <div class="event-thumbnail">
-                                                    <a href="venue_event_detail_view.html" class="thumbnail-img">
-                                                        <img src="images/event-imgs/ev2.png" alt="">
-                                                    </a>
-                                                    <span class="bookmark-icon" title="Bookmark"></span>
-                                                </div>
-                                                <div class="event-content">
-                                                    <a href="venue_event_detail_view.html" class="event-title">La mode, objet d’un colloque international à l’UL!!!</a>
-                                                    <div class="duration-price-remaining">
-                                                        <span class="duration-price">Gratuit*</span>
-                                                        <span class="remaining"></span>
-                                                    </div>
-                                                </div>
-                                                <div class="event-footer">
-                                                    <div class="event-timing">
-                                                        <div class="publish-date">
-                                                            <span><i class="fa-solid fa-calendar-day me-2"></i>05 Mai</span>
-                                                            <span class="dot"><i class="fa-solid fa-circle"></i></span>
-                                                            <span>Dimanche, 16h 30 </span>
-                                                        </div>
-                                                        <span class="publish-time"><i class="fa-solid fa-clock me-2"></i>3h</span>
-                                                    </div>
-                                                </div>
-										    </div>
-                                        </div>
-										<div class=" col-xl-3 col-lg-4 col-md-6 col-sm-12">
-											<div class="main-card mt-4">
-                                                <div class="event-thumbnail">
-                                                    <a href="online_event_detail_view.html" class="thumbnail-img">
-                                                        <img src="images/event-imgs/ev5.jpg" alt="">
-                                                    </a>
-                                                    <span class="bookmark-icon" title="Bookmark"></span>
-                                                </div>
-                                                <div class="event-content">
-                                                    <a href="online_event_detail_view.html" class="event-title">EVALA</a>
-                                                    <div class="duration-price-remaining">
-                                                        <span class="duration-price">10 000 F CFA</span>
-                                                        <span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>7 restant</span>
-                                                    </div>
-                                                </div>
-                                                <div class="event-footer">
-                                                    <div class="event-timing">
-                                                        <div class="publish-date">
-                                                            <span><i class="fa-solid fa-calendar-day me-2"></i>23 Juillet</span>
-                                                            <span class="dot"><i class="fa-solid fa-circle"></i></span>
-                                                            <span>Dimanche, 17h 30</span>
-                                                        </div>
-                                                        <span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
-                                                    </div>
-                                                </div>
-										    </div>
-									    </div>
-								    </div>
-                                </div>
-								<div class="thisYear event-box">
-									<div class="row">
-										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev3.png" alt="">
 												</a>
@@ -1135,11 +1011,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev1.jpg" alt="">
 												</a>
@@ -1162,12 +1038,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>2h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev2.png" alt="">
 												</a>
@@ -1185,17 +1060,16 @@
 													<div class="publish-date">
 														<span><i class="fa-solid fa-calendar-day me-2"></i>05 Mai</span>
 														<span class="dot"><i class="fa-solid fa-circle"></i></span>
-														<span>Dimanche, 16h 30 PM</span>
+														<span>Dimanche, 16h 30 </span>
 													</div>
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>3h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-									
-										
-										<div class=" col-xl-3 col-lg-4 col-md-6 col-sm-12">
+										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev5.jpg" alt="">
 												</a>
@@ -1218,14 +1092,128 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
+									</div>
+								</div>
+								<div class="thisYear event-box">
+									<div class="row">
+										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+											<div class="main-card mt-4">
+												<div class="event-thumbnail">
+												<a href="venue_event_detail_view.html" class="thumbnail-img">
+													<img src="images/event-imgs/ev3.png" alt="">
+												</a>
+												<span class="bookmark-icon" title="Bookmark"></span>
+											</div>
+											<div class="event-content">
+												<a href="venue_event_detail_view.html" class="event-title"> La Semaine africaine de la communication s'ouvre à l'Université de Lomé </a>
+												<div class="duration-price-remaining">
+													<span class="duration-price">50 000 F CFA*</span>
+													<span class="remaining"></span>
+												</div>
+											</div>
+											<div class="event-footer">
+												<div class="event-timing">
+													<div class="publish-date">
+														<span><i class="fa-solid fa-calendar-day me-2"></i>23 mai 2019</span>
+														<span class="dot"><i class="fa-solid fa-circle"></i></span>
+														<span>Jeudi, 14h 00</span>
+													</div>
+													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
+												</div>
+											</div>
+											</div>
+										</div>
+										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+											<div class="main-card mt-4">
+												<div class="event-thumbnail">
+												<a href="online_event_detail_view.html" class="thumbnail-img">
+													<img src="images/event-imgs/ev1.jpg" alt="">
+												</a>
+												<span class="bookmark-icon" title="Bookmark"></span>
+											</div>
+											<div class="event-content">
+												<a href="online_event_detail_view.html" class="event-title">Salon des études en Europe 2020</a>
+												<div class="duration-price-remaining">
+													<span class="duration-price">45 000 F CFA*</span>
+													<span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>6 restante</span>
+												</div>
+											</div>
+											<div class="event-footer">
+												<div class="event-timing">
+													<div class="publish-date">
+														<span><i class="fa-solid fa-calendar-day me-2"></i>27 octobre - 02 novembre 2020</span>
+														<span class="dot"><i class="fa-solid fa-circle"></i></span>
+														<span>Samedi, 11h 30 </span>
+													</div>
+													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>2h</span>
+												</div>
+											</div>
+											</div>
+										</div>
+										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+											<div class="main-card mt-4">
+												<div class="event-thumbnail">
+												<a href="venue_event_detail_view.html" class="thumbnail-img">
+													<img src="images/event-imgs/ev2.png" alt="">
+												</a>
+												<span class="bookmark-icon" title="Bookmark"></span>
+											</div>
+											<div class="event-content">
+												<a href="venue_event_detail_view.html" class="event-title">La mode, objet d’un colloque international à l’UL!!!</a>
+												<div class="duration-price-remaining">
+													<span class="duration-price">Gratuit*</span>
+													<span class="remaining"></span>
+												</div>
+											</div>
+											<div class="event-footer">
+												<div class="event-timing">
+													<div class="publish-date">
+														<span><i class="fa-solid fa-calendar-day me-2"></i>05 Mai</span>
+														<span class="dot"><i class="fa-solid fa-circle"></i></span>
+														<span>Dimanche, 16h 30 PM</span>
+													</div>
+													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>3h</span>
+												</div>
+											</div>
+											</div>
+										</div>
+										<div class=" col-xl-3 col-lg-4 col-md-6 col-sm-12">
+											<div class="main-card mt-4">
+												<div class="event-thumbnail">
+												<a href="online_event_detail_view.html" class="thumbnail-img">
+													<img src="images/event-imgs/ev5.jpg" alt="">
+												</a>
+												<span class="bookmark-icon" title="Bookmark"></span>
+											</div>
+											<div class="event-content">
+												<a href="online_event_detail_view.html" class="event-title">EVALA</a>
+												<div class="duration-price-remaining">
+													<span class="duration-price">10 000 F CFA</span>
+													<span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>7 restant</span>
+												</div>
+											</div>
+											<div class="event-footer">
+												<div class="event-timing">
+													<div class="publish-date">
+														<span><i class="fa-solid fa-calendar-day me-2"></i>23 Juillet</span>
+														<span class="dot"><i class="fa-solid fa-circle"></i></span>
+														<span>Dimanche, 17h 30</span>
+													</div>
+													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
+												</div>
+											</div>
+											</div>
+										</div>
+										
 									</div>
 								</div>
 								<div class="nextYear event-box">
 									<div class="row">
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev3.png" alt="">
 												</a>
@@ -1248,11 +1236,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev1.jpg" alt="">
 												</a>
@@ -1275,12 +1263,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>2h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-										
-										
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="venue_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev2.png" alt="">
 												</a>
@@ -1303,12 +1290,11 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>3h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-									
-										
-										<div class=" col-xl-3 col-lg-4 col-md-6 col-sm-12">
+										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
-											<div class="event-thumbnail">
+												<div class="event-thumbnail">
 												<a href="online_event_detail_view.html" class="thumbnail-img">
 													<img src="images/event-imgs/ev5.jpg" alt="">
 												</a>
@@ -1331,12 +1317,12 @@
 													<span class="publish-time"><i class="fa-solid fa-clock me-2"></i>1h</span>
 												</div>
 											</div>
+											</div>
 										</div>
-									
 									</div>
 								</div>
 								<div class="browse-btn">
-									<a href="#" class="main-btn btn-hover ">Plus d'événement</a>
+									<a href="#" class="main-btn btn-hover ">Plus d'évènements</a>
 								</div>
 							</div>
 						</div>
@@ -1345,6 +1331,5 @@
 			</div>
 		</div>
 	</div>
-	<!-- Body End-->
-    </div>
+	</div>
 </template>

@@ -10,8 +10,8 @@
 						<i class="fa-solid fa-bars"></i>
 					</span>
 				</button>
-				<NuxtLink to="/" class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto">Accueil</NuxtLink>
-				<!--<a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto" href="index.vue">-->
+				<!--<NuxtLink to="/" class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto">Accueil</NuxtLink>-->
+				<a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto" href="index.vue">
 					<div class="res-main-logo">
 						<img src="images/logo-icon.svg" alt="">
 					</div>
@@ -19,7 +19,7 @@
 						<img src="images/logo.jpeg" alt="">
 						<img class="logo-inverse" src="images/dark-logo.svg" alt="">
 					</div>
-				
+				</a>
 				<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 					<div class="offcanvas-header">
 						<div class="offcanvas-logo" id="offcanvasNavbarLabel">
@@ -32,14 +32,10 @@
 					<div class="offcanvas-body">
 						<div class="offcanvas-top-area">
 							<div class="create-bg">
-								<!--<a href="create.vue" class="offcanvas-create-btn">-->
-								<NuxtLink to="/create" class="offcanvas-create-btn">
+								<a href="create.vue" class="offcanvas-create-btn">
 									<i class="fa-solid fa-calendar-days"></i>
 									<span>Créer évènement</span>
-								</NuxtLink>
-
-									
-							
+								</a>
 							</div>
 						</div>							
 						<ul class="navbar-nav justify-content-end flex-grow-1 pe_5">
