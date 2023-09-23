@@ -2,11 +2,8 @@
     <div>
         <div class="form-wrapper">
 		<div class="app-form">
-			<div class="app-form-sidebar">
-				<div class="sidebar-sign-logo">
-					<img src="images/logo.jpeg" alt="">
-				</div>
-				<div class="sign_sidebar_text">
+			<div class="left-sidebar app-form-sidebar">
+				<div class="sign_sidebar_text text-center">
 					<h1>Le moyen le plus simple de créer des événements et de vendre plus de tickets en ligne</h1>
 				</div>
 			</div>
@@ -21,13 +18,15 @@
 										<img class="logo-inverse" src="images/dark-logo.svg" alt="">
 									</div>
 								</a>
-								<div class="app-top-right-link">
-									Vous avez déjà un compte?<a class="sidebar-register-link" href="sign_in.html">S'inscrire</a>
-								</div>
+								
 							</div>
 						</div>
 						<div class="col-xl-5 col-lg-6 col-md-7">
 							<div class="registration">
+							  
+							    <div class="login-form app-top-right-link">
+									Vous avez déjà un compte? <NuxtLink class="sidebar-register-link" to="/sign_in">Se connecter</NuxtLink>
+								</div>
 								<form>
 									<h2 class="registration-title">inscrivez-vous à notre plateforme</h2>
 									<div class="row mt-3">
@@ -96,3 +95,19 @@
 	</div>
     </div>
 </template>
+
+<style>
+   .left-sidebar
+   {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.login-form 
+{
+  margin-top: 42px;
+  margin-bottom:0px;
+}
+   
+</style>
