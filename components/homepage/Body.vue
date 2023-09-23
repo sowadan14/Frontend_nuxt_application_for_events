@@ -9,7 +9,7 @@
                     <div class="hero-banner-content">
                         <h2>La réservation et l'achat de tickets pour les événements en ligne le plus proche de vous</h2>
                         <p>Event-CERIL est une plateforme de réservation et d'achat de tickets en ligne pour les organisateurs, les promoteurs et les gestionnaires d'événements. Créez, promouvez et gérez facilement vos événements de tout type et de toute taille.</p>
-                        <a href="create.vue" class="main-btn btn-hover">Créer évènement <i class="fa-solid fa-arrow-right ms-3"></i></a>
+                        <NuxtLink to="/create" class="main-btn btn-hover">Créer évènement <i class="fa-solid fa-arrow-right ms-3"></i></NuxtLink>
                     </div>
                 </div>
             </div>
@@ -27,17 +27,17 @@
                     <div class="event-filter-items">
                         <div class="featured-controls">
                             <div class="filter-tag">
-                                <a href="explore_events_by_date.vue" class="active">Tout</a>
-                                <a href="explore_events_by_date.vue">Aujourd'hui</a>
-                                <a href="explore_events_by_date.vue">Demain</a>
-                                <a href="explore_events_by_date.vue">Cette semaine</a>
-                                <a href="explore_events_by_date.vue">Cette fin de semaine</a>
-                                <a href="explore_events_by_date.vue">La semaine prochaine</a>
-                                <a href="explore_events_by_date.vue">Le weekend prochain</a>
-                                <a href="explore_events_by_date.vue">Ce mois</a>
-                                <a href="explore_events_by_date.vue">Le mois prochain</a>
-                                <a href="explore_events_by_date.vue">Cette année</a>
-                                <a href="explore_events_by_date.vue">L'année prochaine</a>
+                                <NuxtLink to="explore_events_by_date" class="active">Tout</NuxtLink>
+                                <NuxtLink to="/explore_events_by_date">Aujourd'hui</NuxtLink>
+                                <NuxtLink to="/explore_events_by_date">Demain</NuxtLink>
+                                <NuxtLink to="/explore_events_by_date">Cette semaine</NuxtLink>
+                                <NuxtLink to="/explore_events_by_date">Cette fin de semaine</NuxtLink>
+                                <NuxtLink to="/explore_events_by_date">La semaine prochaine</NuxtLink>
+                                <NuxtLink to="/explore_events_by_date">Le weekend prochain</NuxtLink>
+                                <NuxtLink to="/explore_events_by_date">Ce mois</NuxtLink>
+                                <NuxtLink to="/explore_events_by_date">Le mois prochain</NuxtLink>
+                                <NuxtLink to="/explore_events_by_date">Cette année</NuxtLink>
+                                <NuxtLink to="/explore_events_by_date">L'année prochaine</NuxtLink>
                             </div>
                             <div class="controls">
                                 <button type="button" class="control" data-filter="all">Tout</button>
@@ -55,13 +55,13 @@
                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix arts concert workshops volunteer sports health_Wellness" data-ref="mixitup-target">
                                     <div class="main-card mt-4">
                                         <div class="event-thumbnail">
-                                            <a href="venue_event_detail_view.vue" class="thumbnail-img">
+                                            <NuxtLink to="/venue_event_detail_view" class="thumbnail-img">
                                                 <img src="images/event-imgs/ev9.jpg" alt="">
-                                            </a>
+                                            </NuxtLink>
                                             <span class="bookmark-icon" title="Bookmark"></span>
                                         </div>
                                         <div class="event-content">
-                                            <a href="venue_event_detail_view.vue" class="event-title">Promotion de la jeune fille dans le milieu scolaire</a>
+                                            <NuxtLink to="/venue_event_detail_view" class="event-title">Promotion de la jeune fille dans le milieu scolaire</NuxtLink>
                                             <div class="duration-price-remaining">
                                                 <span class="duration-price">5000 F CFA*</span>
                                                 <span class="remaining"></span>
@@ -82,13 +82,13 @@
                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix business workshops volunteer sports health_Wellness" data-ref="mixitup-target">
                                     <div class="main-card mt-4">
                                         <div class="event-thumbnail">
-                                            <a href="online_event_detail_view.vue" class="thumbnail-img">
+                                            <NuxtLink to="/online_event_detail_view" class="thumbnail-img">
                                                 <img src="images/event-imgs/event7.jpeg" alt="">
-                                            </a>
+                                            </NuxtLink>
                                             <span class="bookmark-icon" title="Bookmark"></span>
                                         </div>
                                         <div class="event-content">
-                                            <a href="online_event_detail_view.vue" class="event-title">Développement individuel</a>
+                                            <NuxtLink to="/online_event_detail_view" class="event-title">Développement individuel</NuxtLink>
                                             <div class="duration-price-remaining">
                                                 <span class="duration-price">10 000 F CFA*</span>
                                                 <span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>10 restante </span>
@@ -109,13 +109,13 @@
                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix coaching_consulting free concert volunteer health_Wellness bussiness" data-ref="mixitup-target">
                                     <div class="main-card mt-4">
                                         <div class="event-thumbnail">
-                                            <a href="venue_event_detail_view.vue" class="thumbnail-img">
+                                            <NuxtLink to="/venue_event_detail_view" class="thumbnail-img">
                                                 <img src="images/event-imgs/event6.jpeg" alt="">
-                                            </a>
+                                            </NuxtLink>
                                             <span class="bookmark-icon" title="Bookmark"></span>
                                         </div>
                                         <div class="event-content">
-                                            <a href="venue_event_detail_view.vue" class="event-title">Réunion hbdomadaire</a>
+                                            <NuxtLink to="/venue_event_detail_view" class="event-title">Réunion hbdomadaire</NuxtLink>
                                             <div class="duration-price-remaining">
                                                 <span class="duration-price">gratuit*</span>
                                                 <span class="remaining"></span>
@@ -136,13 +136,13 @@
                                 <div class=" col-xl-3 col-lg-4 col-md-6 col-sm-12 mix health_Wellness concert volunteer sports free business" data-ref="mixitup-target">
                                     <div class="main-card mt-4">
                                         <div class="event-thumbnail">
-                                            <a href="online_event_detail_view.vue" class="thumbnail-img">
+                                            <NuxtLink to="/online_event_detail_view" class="thumbnail-img">
                                                 <img src="images/event-imgs/event4.jpeg" alt="">
-                                            </a>
+                                            </NuxtLink>
                                             <span class="bookmark-icon" title="Bookmark"></span>
                                         </div>
                                         <div class="event-content">
-                                            <a href="online_event_detail_view.vue" class="event-title">Vie de couple</a>
+                                            <NuxtLink to="/online_event_detail_view" class="event-title">Vie de couple</NuxtLink>
                                             <div class="duration-price-remaining">
                                                 <span class="duration-price">55 000 F CFA</span>
                                                 <span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>7 restants</span>
@@ -163,13 +163,13 @@
                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix concert sports health_Wellness free arts" data-ref="mixitup-target">
                                     <div class="main-card mt-4">
                                         <div class="event-thumbnail">
-                                            <a href="venue_event_detail_view.vue" class="thumbnail-img">
+                                            <NuxtLink to="/venue_event_detail_view" class="thumbnail-img">
                                                 <img src="images/event-imgs/event7.jpeg" alt="">
-                                            </a>
+                                            </NuxtLink>
                                             <span class="bookmark-icon" title="Bookmark"></span>
                                         </div>
                                         <div class="event-content">
-                                            <a href="venue_event_detail_view.vue" class="event-title">Comémoration de la 27ème anniversaire de l'indépendance du Togo</a>
+                                            <NuxtLink to="/venue_event_detail_view" class="event-title">Comémoration de la 27ème anniversaire de l'indépendance du Togo</NuxtLink>
                                             <div class="duration-price-remaining">
                                                 <span class="duration-price">35 000 F CFA*</span>
                                                 <span class="remaining"></span>
@@ -190,13 +190,13 @@
                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix workshops concert arts volunteer sports" data-ref="mixitup-target">
                                     <div class="main-card mt-4">
                                         <div class="event-thumbnail">
-                                            <a href="venue_event_detail_view.vue" class="thumbnail-img">
+                                            <NuxtLink to="/venue_event_detail_view" class="thumbnail-img">
                                                 <img src="images/event-imgs/event2.jpeg" alt="">
-                                            </a>
+                                            </NuxtLink>
                                             <span class="bookmark-icon" title="Bookmark"></span>
                                         </div>
                                         <div class="event-content">
-                                            <a href="venue_event_detail_view.vue" class="event-title">Démarrer le business</a>
+                                            <NuxtLink to="/venue_event_detail_view" class="event-title">Démarrer le business</NuxtLink>
                                             <div class="duration-price-remaining">
                                                 <span class="duration-price">250 000 F CFA*</span>
                                                 <span class="remaining"></span>
@@ -217,13 +217,13 @@
                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix volunteer free health_Wellness" data-ref="mixitup-target">
                                     <div class="main-card mt-4">
                                         <div class="event-thumbnail">
-                                            <a href="online_event_detail_view.vue" class="thumbnail-img">
+                                            <NuxtLink to="/online_event_detail_view" class="thumbnail-img">
                                                 <img src="images/event-imgs/event1.jpg" alt="">
-                                            </a>
+                                            </NuxtLink>
                                             <span class="bookmark-icon" title="Bookmark"></span>
                                         </div>
                                         <div class="event-content">
-                                            <a href="online_event_detail_view.vue" class="event-title">Tutoriel pour comprendre le développement des applications informatique</a>
+                                            <NuxtLink to="/online_event_detail_view" class="event-title">Tutoriel pour comprendre le développement des applications informatique</NuxtLink>
                                             <div class="duration-price-remaining">
                                                 <span class="duration-price">30 000 F CFA*</span>
                                                 <span class="remaining"><i class="fa-solid fa-ticket fa-rotate-90"></i>17 restants</span>
@@ -244,9 +244,9 @@
                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix sports concert volunteer arts" data-ref="mixitup-target">
                                     <div class="main-card mt-4">
                                         <div class="event-thumbnail">
-                                            <a href="venue_event_detail_view.vue" class="thumbnail-img">
+                                            <NuxtLink to="/venue_event_detail_view" class="thumbnail-img">
                                                 <img src="images/event-imgs/event12.jpeg" alt="">
-                                            </a>
+                                            </NuxtLink>
                                             <span class="bookmark-icon" title="Bookmark"></span>
                                         </div>
                                         <div class="event-content">
@@ -270,7 +270,7 @@
                                 </div>
                             </div>
                             <div class="browse-btn">
-                                <a href="explore_events.vue" class="main-btn btn-hover ">Parcourir tout</a>
+                                <NuxtLink to="explore_events" class="main-btn btn-hover ">Parcourir tout</NuxtLink>
                             </div>
                         </div>
                     </div>
