@@ -11,7 +11,7 @@
 					</span>
 				</button>
 				<!--<NuxtLink to="/" class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto">Accueil</NuxtLink>-->
-				<a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto" href="index.vue">
+				<NuxtLink class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto" to="/index">
 					<div class="res-main-logo">
 						<img src="images/logo-icon.svg" alt="">
 					</div>
@@ -19,7 +19,7 @@
 						<img src="images/logo.jpeg" alt="">
 						<img class="logo-inverse" src="images/dark-logo.svg" alt="">
 					</div>
-				</a>
+				</NuxtLink>
 				<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 					<div class="offcanvas-header">
 						<div class="offcanvas-logo" id="offcanvasNavbarLabel">
@@ -40,26 +40,37 @@
 						</div>							
 						<ul class="navbar-nav justify-content-end flex-grow-1 pe_5">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="index.vue">Accueil</a>
+								<NuxtLink class="nav-link active" to="/" aria-current="page"> Accueil </NuxtLink>
 							</li>
 							<li class="nav-item dropdown">
+
+							   
 								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 									Tous les évènements
 								</a>
 								<ul class="dropdown-menu dropdown-submenu">
-									<li><a class="dropdown-item" href="explore_events.vue">Liste d'événements</a></li>
-									<li><a class="dropdown-item" href="venue_event_detail_view.vue">Liste d'évènement sur place</a></li>
-									<li><a class="dropdown-item" href="online_event_detail_view.vue">Liste d'évènement en ligne</a></li>
+									<li>
+									   <NuxtLink class="dropdown-item" to="/explore_events" aria-current="page"> Liste d'événements </NuxtLink>
+									</li>
+									<li>
+									   <NuxtLink class="dropdown-item" to="/venue_event_detail_view" aria-current="page"> Liste d'évènement sur place </NuxtLink>
+									</li>
+
+									<li>
+									   <NuxtLink class="dropdown-item" to="/online_event_detail_view" aria-current="page"> Liste d'évènement en ligne </NuxtLink>
+									</li>
+
 								</ul>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="pricing.vue">Tarification</a>
+							  <NuxtLink class="nav-link" to="/pricing"> Tarification </NuxtLink>
+
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="term_and_conditions.vue">Termes et conditions</a>
+						        <NuxtLink class="nav-link" to="/term_and_conditions"> Termes et conditions </NuxtLink>
 							</li>
 							<li class="nav-item">
-				<NuxtLink to="/contact_us" class="nav-link">Contact</NuxtLink>
+				                  <NuxtLink to="/contact_us" class="nav-link">Contact</NuxtLink>
 
 								<!--<a class="nav-link" href="contact_us.vue">Contact</a>-->
 							</li>
@@ -81,10 +92,13 @@
 				<div class="right-header order-2">
 					<ul class="align-self-stretch">
 						<li>
-							<a href="create.vue" class="create-btn btn-hover">
-								<i class="fa-solid fa-calendar-days"></i>
-								<span>Créer évènement</span>
+
+						    <NuxtLink to="/create" class="create-btn btn-hover">
+							<a href="create.vue" class="">
+								<i class="fa-solid fa-calendar-days icon-white"></i>
+								<span class="text-white">Créer évènement</span>
 							</a>
+							</NuxtLink>
 						</li>
 						<li class="dropdown account-dropdown">
 							<a href="#" class="account-link" role="button" id="accountClick" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
@@ -124,4 +138,12 @@
 <!-- Header End-->
     </div>
 </template>
+
+<style>
+
+	.icon-white
+	{
+		color:white;
+	}
+</style>
 
