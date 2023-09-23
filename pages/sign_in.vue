@@ -14,13 +14,16 @@
 										<img class="logo-inverse" src="images/dark-logo.svg" alt="">
 									</div>
 								</a>
-								<div class="app-top-right-link">
-									Nouveau sur notre plateforme?<a class="sidebar-register-link" href="sign_up.html">S'inscrire</a>
-								</div>
+								
 							</div>
 						</div>
 						<div class="col-xl-5 col-lg-6 col-md-7">
 							<div class="registration">
+
+							    <div class="app-top-right-link text-center titleHeader">
+									Nouveau sur notre plateforme?<NuxtLink class="sidebar-register-link" to="/sign_up">S'inscrire</NuxtLink>
+								</div>
+
 								<form>
 									<h2 class="registration-title">Connectez-vous à notre plateforme</h2>
 									<div class="form-group mt-5">
@@ -30,7 +33,7 @@
 									<div class="form-group mt-4">
 										<div class="field-password">
 											<label class="form-label">Mot de passe*</label>
-											<a class="forgot-pass-link" href="forgot_password.html">Mot de passe oublié?</a>
+											<NuxtLink class="forgot-pass-link" to="/forgot_password">Mot de passe oublié?</NuxtLink>
 										</div>
 										<div class="loc-group position-relative">
 											<input class="form-control h_50" type="password" placeholder="Entrer votre mot de passe">
@@ -67,3 +70,11 @@
 	</div>
     </div>
 </template>
+
+<style>
+
+   .titleHeader
+   {
+	 margin-top: 72px;
+   }
+</style>
