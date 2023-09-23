@@ -91,8 +91,8 @@
 				</div>
 				<div class="right-header order-2">
 					<ul class="align-self-stretch">
+					
 						<li>
-
 						    <NuxtLink to="/create" class="create-btn btn-hover">
 							<a href="create.vue" class="">
 								<i class="fa-solid fa-calendar-days icon-white"></i>
@@ -100,29 +100,10 @@
 							</a>
 							</NuxtLink>
 						</li>
-						<li class="dropdown account-dropdown">
-							<a href="#" class="account-link" role="button" id="accountClick" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
-								<img src="images/profile-imgs/client2.png" alt="">
-								<i class="fas fa-caret-down arrow-icon"></i>
-							</a>
-							<ul class="dropdown-menu dropdown-menu-account dropdown-menu-end" aria-labelledby="accountClick">
-								<li>
-									<div class="dropdown-account-header">
-										<div class="account-holder-avatar">
-											<img src="images/profile-imgs/client2.png" alt="">
-										</div>
-										<h5>Basile SOWADAN</h5>
-										<p>basile14sowadan@gmail.com</p>
-									</div>
-								</li>
-								<li class="profile-link">
-									<a href="my_organisation_dashboard.vue" class="link-item">Tableau de bord Organisation</a>
-									<a href="organiser_profile_view.vue" class="link-item">Profile Organisateur</a>	
-									<a href="attendee_profile_view.vue" class="link-item">Profil participant</a>									
-									<a href="sign_in.vue" class="link-item">Se déconecter</a>									
-								</li>
-							</ul>
-						</li>
+						
+                         <UserHeaderComponent />
+
+
 						<li>
 							<div class="night_mode_switch__btn">
 								<div id="night-mode" class="fas fa-moon fa-sun"></div>
@@ -138,6 +119,16 @@
 <!-- Header End-->
     </div>
 </template>
+
+<script>
+
+  import UserHeaderComponent from '@/components/Global/UserHeaderComponent.vue'
+  export default {
+        components: {
+            UserHeaderComponent
+        }
+    }
+</script>
 
 <style>
 
