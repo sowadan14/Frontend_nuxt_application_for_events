@@ -11,7 +11,7 @@
 					</span>
 				</button>
 				<!--<NuxtLink to="/" class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto">Accueil</NuxtLink>-->
-				<NuxtLink class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto" to="/index">
+				<NuxtLink class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 me-auto" to="/">
 					<div class="res-main-logo">
 						<img src="images/logo-icon.svg" alt="">
 					</div>
@@ -91,7 +91,7 @@
 				</div>
 				<div class="right-header order-2">
 					<ul class="align-self-stretch">
-					
+
 						<li>
 						    <NuxtLink to="/create" class="create-btn btn-hover">
 							<a href="create.vue" class="">
@@ -102,7 +102,6 @@
 						</li>
 						
                          <UserHeaderComponent />
-
 
 						<li>
 							<div class="night_mode_switch__btn">
