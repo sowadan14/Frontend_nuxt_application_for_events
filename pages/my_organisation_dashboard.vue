@@ -218,24 +218,15 @@
 						<div class="offcanvas-body">
 							<div class="offcanvas-top-area">
 								<div class="create-bg">
-									<a href="create.html" class="offcanvas-create-btn">
+									<NuxtLink to="/create" class="offcanvas-create-btn">
 										<i class="fa-solid fa-calendar-days"></i>
 										<span>Créer évènement</span>
-									</a>
+									</NuxtLink>
 								</div>
 							</div>
-							<ul class="navbar-nav justify-content-end flex-grow-1 pe_5">
-								<li class="nav-item">
-									<a class="nav-link" href="organiser_profile_view.html">
-										<i class="fa-solid fa-right-left me-2"></i>Ma maison
-									</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="explore_events.html">
-										<i class="fa-solid fa-compass me-2"></i>Tous les évènements
-									</a>
-								</li>
-							</ul>
+							
+							<organisationDashboardHeader />
+
 						</div>
 						<div class="offcanvas-footer">
 							<div class="offcanvas-social">
@@ -253,10 +244,10 @@
 					<div class="right-header order-2">
 						<ul class="align-self-stretch">
 							<li>
-								<a href="create.html" class="create-btn btn-hover">
+								<NuxtLink to="/create" class="create-btn btn-hover">
 									<i class="fa-solid fa-calendar-days"></i>
 									<span>Créer évènement</span>
-								</a>
+								</NuxtLink>
 							</li>
 							<li class="dropdown account-dropdown order-3">
 								<a href="#" class="account-link" role="button" id="accountClick" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
@@ -529,3 +520,13 @@
 	
     </div>
 </template>
+
+<script>
+
+  import organisationDashboardHeader from '@/components/Global/organisationDashboardHeader.vue'
+  export default {
+        components: {
+            organisationDashboardHeader
+        }
+    }
+</script>

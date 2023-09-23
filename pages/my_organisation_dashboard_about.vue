@@ -330,18 +330,10 @@
 									</a>
 								</div>
 							</div>
-							<ul class="navbar-nav justify-content-end flex-grow-1 pe_5">
-								<li class="nav-item">
-									<a class="nav-link" href="organiser_profile_view.html">
-										<i class="fa-solid fa-right-left me-2"></i>Ma maison
-									</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="explore_events.html">
-										<i class="fa-solid fa-compass me-2"></i>Tous les évènements
-									</a>
-								</li>
-							</ul>
+
+
+							<organisationDashboardHeaderfrom />
+													
 						</div>
 						<div class="offcanvas-footer">
 							<div class="offcanvas-social">
@@ -532,3 +524,14 @@
 	<!-- Body End -->
     </div>
 </template>
+
+
+<script>
+
+  import organisationDashboardHeaderfrom from '@/components/Global/organisationDashboardHeader.vue'
+  export default {
+        components: {
+            organisationDashboardHeader
+        }
+    }
+</script>

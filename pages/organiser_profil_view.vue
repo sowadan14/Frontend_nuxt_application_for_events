@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- Follow People Model Start-->
-	<div class="modal fade" id="FFModal" tabindex="-1" aria-labelledby="FFModalLabel" aria-hidden="true">
+	<div class="modal fade contentModal" id="FFModal" tabindex="-1" aria-labelledby="FFModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-scrollable">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -247,3 +247,11 @@
 	<!-- Header Start-->
     </div>
 </template>
+
+<style>
+
+   .contentModal
+   {
+	margin-top: 200px;
+   }
+</style>
