@@ -45,7 +45,8 @@
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-12">
-										<a href="#" class="main-btn btn-hover w-100">Chercher</a>
+										<NuxtLink to="#" class="main-btn btn-hover w-100">Chercher</NuxtLink>
+										<!-- <a href="#" class="main-btn btn-hover w-100">Chercher</a> -->
 									</div>
 								</div>
 							</div>
@@ -311,13 +312,17 @@
 										<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 											<div class="main-card mt-4">
 												<div class="event-thumbnail">
-												<a href="venue_event_detail_view.html" class="thumbnail-img">
-													<img src="images/event-imgs/ev3.png" alt="">
-												</a>
+													<NuxtLink to="/venue_event_detail_view" class="main-btn btn-hover w-100">
+														<a href="venue_event_detail_view.vue" class="thumbnail-img">
+															<img src="images/event-imgs/ev3.png" alt="">
+														</a>
+													</NuxtLink>
+												</div>
 												<span class="bookmark-icon" title="Bookmark"></span>
 											</div>
 											<div class="event-content">
-												<a href="venue_event_detail_view.html" class="event-title"> La Semaine africaine de la communication s'ouvre à l'Université de Lomé </a>
+												<NuxtLink to="/venue_event_detail_view" class="event-title">La Semaine africaine de la communication s'ouvre à l'Université de Lomé</nuxtlink>
+												<!-- <a href="venue_event_detail_view.html" class="event-title"> La Semaine africaine de la communication s'ouvre à l'Université de Lomé </a> -->
 												<div class="duration-price-remaining">
 													<span class="duration-price">50 000 F CFA*</span>
 													<span class="remaining"></span>
@@ -1330,6 +1335,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
 	</div>
 </template>
