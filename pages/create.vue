@@ -35,7 +35,8 @@
 											<i class="fa-solid fa-video"></i>
 										</div>
 										<h4>Créer évènement en ligne</h4>
-										<a href="create_online_event.html" class="main-btn btn-hover h_40 w-100">Créer<i class="fa-solid fa-arrow-right ms-2"></i></a>
+										<!-- <a href="create_online_event.html" class="main-btn btn-hover h_40 w-100">Créer<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
+										<NuxtLink to="/create_online_event" class="main-btn btn-hover h_40 w-100">Créer <i class="fa-solid fa-arrow-right ms-2"></i></NuxtLink>
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -44,7 +45,9 @@
 											<i class="fa-solid fa-location-dot"></i>
 										</div>
 										<h4>Créer évènement sur place</h4>
-										<a href="create_venue_event.html" class="main-btn btn-hover h_40 w-100">Créer<i class="fa-solid fa-arrow-right ms-2"></i></a>
+                        				<NuxtLink to="/create_venue_event" class="main-btn btn-hover h_40 w-100">Créer <i class="fa-solid fa-arrow-right ms-2"></i></NuxtLink>
+
+										<!-- <a href="create_venue_event" class="main-btn btn-hover h_40 w-100">Créer<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
 									</div>
 								</div>
 							</div>

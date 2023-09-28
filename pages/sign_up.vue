@@ -12,13 +12,14 @@
 					<div class="row justify-content-center">
 						<div class="col-lg-10 col-md-10">
 							<div class="app-top-items">
-								<a href="index.html">
-									<div class="sign-logo" id="logo">
-										<img src="images/logo.jpeg" alt="">
-										<img class="logo-inverse" src="images/dark-logo.svg" alt="">
-									</div>
-								</a>
-								
+								<NuxtLink to="/" >
+									<a href="index.html">
+										<div class="sign-logo" id="logo">
+											<img src="images/logo.jpeg" alt="">
+											<img class="logo-inverse" src="images/dark-logo.svg" alt="">
+										</div>
+									</a>
+								</NuxtLink>
 							</div>
 						</div>
 						<div class="col-xl-5 col-lg-6 col-md-7">

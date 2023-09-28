@@ -9,6 +9,7 @@
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+									
 									<li class="breadcrumb-item"><a href="explore_events.html">Tous les évènements</a></li>
 									<li class="breadcrumb-item active" aria-current="page">Liste de des évènements sur place</li>
 								</ol>
@@ -90,7 +91,9 @@
 								<div class="event-dt-right-content">
 									<h4>Organiser par</h4>
 									<h5>PNUD</h5>
-									<a href="attendee_profile_view.html">Voir le profil</a>
+								<NuxtLink to="/attendee_profile_view" >Voir le profil</NuxtLink>
+
+									<!-- <a href="attendee_profile_view.html">Voir le profil</a> -->
 								</div>
 							</div>
 							<div class="event-dt-right-group">
@@ -142,7 +145,9 @@
 								</div>
 							</div>
 							<div class="booking-btn">
-								<a href="checkout.html" class="main-btn btn-hover w-100">Reserve maintenant</a>
+								<NuxtLink to="/checkout" class="main-btn btn-hover w-100" >Reserve maintenant</NuxtLink>
+
+								<!-- <a href="checkout.html" class="main-btn btn-hover w-100">Reserve maintenant</a> -->
 							</div>
 						</div>
 					</div>
@@ -150,7 +155,9 @@
 						<div class="more-events">
 							<div class="main-title position-relative">
 								<h3>Plus d'événements</h3>
-								<a href="explore_events.html" class="view-all-link">Parcourir tout<i class="fa-solid fa-right-long ms-2"></i></a>
+								<NuxtLink to="/explore_events" class="view-all-link" >Parcourir tout <i class="fa-solid fa-right-long ms-2"></i></NuxtLink>
+
+								<!-- <a href="explore_events.html" class="view-all-link">Parcourir tout<i class="fa-solid fa-right-long ms-2"></i></a> -->
 							</div>
 							<div class="owl-carousel moreEvents-slider owl-theme">
 								<div class="item">

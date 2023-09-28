@@ -22,7 +22,9 @@
 									</div>
 								</a>
 								<div class="app-top-right-link">
-									<a class="sidebar-register-link" href="sign_in.html"><i class="fa-regular fa-circle-left me-2"></i>Revenir se connecter</a>
+									<NuxtLink to="/sign_in" class="sidebar-register-link"><i class="fa-regular fa-circle-left me-2"></i>Revenir se connecter</NuxtLink>
+
+									<!-- <a class="sidebar-register-link" href="sign_in.html"><i class="fa-regular fa-circle-left me-2"></i>Revenir se connecter</a> -->
 								</div>
 							</div>
 						</div>
@@ -37,7 +39,9 @@
 									<button class="main-btn btn-hover w-100 mt-4" type="submit">Réinitialiser mot de passe</button>
 								</form>
 								<div class="new-sign-link">
-									<a class="signup-link" href="sign_in.html"><i class="fa-regular fa-circle-left me-2"></i>Revenir se connecter</a>
+									<NuxtLink to="/sign_in" class="signup-link"><i class="fa-regular fa-circle-left me-2"></i>Revenir se connecter</NuxtLink>
+
+									<!-- <a class="signup-link" href="sign_in.html"><i class="fa-regular fa-circle-left me-2"></i>Revenir se connecter</a> -->
 								</div>
 							</div>							
 						</div>

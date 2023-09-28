@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import {defineNuxtConfig} from "nuxt/config"
+
+
+
+
 export default defineNuxtConfig({
   app: {
     head: {
@@ -20,6 +24,7 @@ export default defineNuxtConfig({
               {rel: 'stylesheet', href:'css/responsive.css'},
               {rel: 'stylesheet', href:'css/night-mode.csscss/style.css'},
               {rel: 'stylesheet', href:'vendor/fontawesome-free/css/all.min.css'},
+              {rel: 'stylesheet', href:'css/jquery-steps.css'},
               {rel: 'stylesheet', href:'vendor/OwlCarousel/assets/owl.carousel.css'},
               {rel: 'stylesheet', href:'vendor/OwlCarousel/assets/owl.theme.default.min.css'},
               {rel: 'stylesheet', href:'vendor/bootstrap/css/bootstrap.min.css'},
@@ -27,17 +32,21 @@ export default defineNuxtConfig({
            ],
   
       script: [
-              {src: '/js/jquery-3.6.0.min.js', body: true},
-              {src: '/vendor/bootstrap/js/bootstrap.bundle.min.js', body: true},
-              {src: '/vendor/OwlCarousel/owl.carousel.js', body: true},
-              {src: '/vendor/bootstrap-select/dist/js/bootstrap-select.min.js', body: true},
-              {src: '/vendor/mixitup/dist/mixitup.min.js', body: true},
-              {src: '/js/custom.js', body: true},
-              {src: '/js/night-mode.js', body: true},
+              {src: 'js/jquery-3.6.0.min.js' },
+              {src: 'vendor/bootstrap/js/bootstrap.bundle.min.js'},
+              {src: 'vendor/OwlCarousel/owl.carousel.js' },
+              {src: 'vendor/bootstrap-select/dist/js/bootstrap-select.min.js'},
+              {src: 'vendor/mixitup/dist/mixitup.min.js'},
+              {src: 'js/jquery-steps.min.js'},
+              {src: 'js/datepicker.min.js'},
+              {src: 'js/i18n/datepicker.en.js'},
+              {src: 'js/custom.js'},
+              {src: 'js/night-mode.js'},
           ],
     }
    }
     //devtools: { enabled: true }
+    // body: true
 })
 
 

@@ -9,8 +9,12 @@
 						<div class="footer-content">
 							<h4>Entreprise</h4>
 							<ul class="footer-link-list">
-								<li><a href="about_us.vue" class="footer-link">A propos de nous</a></li>
-								<li><a href="contact_us.vue" class="footer-link">Contact-nous</a></li>
+								<!-- <li><a href="about_us.vue" class="footer-link">A propos de nous</a></li> -->
+
+								<li><NuxtLink to="/contact_us" class="footer-link">Contact-nous</NuxtLink></li>
+								
+								<!-- <li><NuxtLink to="/about_us" class="footer-link">A propos de nous</NuxtLink></li> -->
+								<!-- <li><a href="contact_us.vue" class="footer-link">Contact-nous</a></li> -->
 							</ul>
 						</div>
 					</div>
@@ -18,9 +22,11 @@
 						<div class="footer-content">
 							<h4>Liens utiles</h4>
 							<ul class="footer-link-list">
-								<li><a href="create.vue" class="footer-link">Créer évènement</a></li>
-								<li><a href="sell_tickets_online.vue" class="footer-link">Vendre tickets en ligne</a></li>
-								<li><a href="term_and_conditions.vue" class="footer-link">Termes & Conditions</a></li>
+								<li><NuxtLink to="/create" class="footer-link">Créer évènement</NuxtLink></li>
+								<!-- <li><NuxtLink to="/sell_tickets_online.vue" class="footer-link">Vendre tickets en ligne</NuxtLink></li> -->
+								<li><NuxtLink to="/term_and_conditions" class="footer-link">Termes & Conditionst</NuxtLink></li>
+
+								
 							</ul>
 						</div>
 					</div>
@@ -28,8 +34,10 @@
 						<div class="footer-content">
 							<h4>Resources</h4>
 							<ul class="footer-link-list">
-								<li><a href="pricing.vue" class="footer-link">Tarification</a></li>
-								<li><a href="refer_a_friend.vue" class="footer-link">Référer un ami</a></li>
+								<li><NuxtLink to="/pricing" class="footer-link"> Tarification</NuxtLink></li>
+								<!-- <li><NuxtLink to="/refer_a_friend" class="footer-link">Référer un ami</NuxtLink></li> -->
+
+								
 							</ul>
 						</div>
 					</div>

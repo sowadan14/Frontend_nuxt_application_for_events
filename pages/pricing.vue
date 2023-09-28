@@ -8,7 +8,9 @@
 							<div class="hero-banner-content text-lg-start">
 								<h2>Les tarifs de l'événement-ceril </h2>
 								<p class="ps-0">Nous pensons que votre expérience événementielle doit être simple, élégante et sans tracas. Notre objectif est de créer cette expérience afin que vous puissiez vous concentrer sur l'organisation de votre événement pendant que nous nous occupons du reste !</p>
-								<a href="create.html" class="main-btn btn-hover">Créer évènement <i class="fa-solid fa-arrow-right ms-3"></i></a>
+								<NuxtLink to="/create" class="main-btn btn-hover"><i class="fa-solid fa-arrow-right ms-3"></i>Créer évènement</NuxtLink>
+								
+								<!-- <a href="create.html" class="main-btn btn-hover">Créer évènement <i class="fa-solid fa-arrow-right ms-3"></i></a> -->
 							</div>
 						</div>
 						<div class="col-xl-5 col-lg-6 col-md-10">

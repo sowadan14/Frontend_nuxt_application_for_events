@@ -62,40 +62,45 @@
 											</ul>										
 										</li>
 									</ul>
-									<ol start="2">
+									<!-- <ol start="2">
 										<li>Votre utilisation de nos Services</li>
 									</ol>
-									<p>Mauris id ligula et est lacinia malesuada. Quisque leo purus, porttitor efficitur aliquet ac, dictum vitae eros. Pellentesque at nisl lorem. Aliquam pretium diam ullamcorper ullamcorper suscipit. In consectetur scelerisque odio sit amet sagittis. Nunc viverra justo vel ante placerat pharetra. Quisque eget est et tortor molestie iaculis. Proin a quam urna. Phasellus nec orci lacinia, egestas massa sed, pretium justo. Aliquam mauris arcu, rutrum vitae tortor ut, tincidunt scelerisque nisi. Suspendisse aliquam est nec malesuada rhoncus.</p>							
-									<ol start="3">
+									<p>Mauris id ligula et est lacinia malesuada. Quisque leo purus, porttitor efficitur aliquet ac, dictum vitae eros. Pellentesque at nisl lorem. Aliquam pretium diam ullamcorper ullamcorper suscipit. In consectetur scelerisque odio sit amet sagittis. Nunc viverra justo vel ante placerat pharetra. Quisque eget est et tortor molestie iaculis. Proin a quam urna. Phasellus nec orci lacinia, egestas massa sed, pretium justo. Aliquam mauris arcu, rutrum vitae tortor ut, tincidunt scelerisque nisi. Suspendisse aliquam est nec malesuada rhoncus.</p>							 -->
+									<ol start="2">
 										<li>Créer un compte</li>
 									</ol>
-									<p>Phasellus faucibus eros nec quam rutrum congue. Quisque lobortis porttitor turpis, in volutpat libero accumsan eu. Sed feugiat massa sed venenatis ullamcorper. Integer sed volutpat dolor, aliquam bibendum leo. In sed eros scelerisque, tempus augue a, viverra turpis. Nam pharetra ipsum velit, sollicitudin dapibus nulla cursus ut. Nulla facilisi. Ut lacinia dui non nunc placerat, vitae tristique dui luctus. Quisque eu lorem euismod, tristique mi in, porttitor risus. Nam ut nisi quis nisi vehicula scelerisque. Vivamus vestibulum nibh cursus, commodo sem sit amet, mattis odio.</p>
-									<ol start="4">
+									<p>Renseignez toutes les inforamtion suivantes: </p>
+									<p>Nom </p>
+									<p>Prénoms </p>
+									<p>adresse mail </p>
+									<p>Mot de passe </p>
+
+									<!-- <ol start="4">
 										<li>Contenu de la page événemente</li>
 									</ol>
 									<p>Morbi non facilisis ipsum. Mauris volutpat sagittis purus, nec mattis dui auctor quis. Maecenas interdum ex eget mauris ullamcorper, quis aliquet risus faucibus. Suspendisse posuere accumsan mi, ut accumsan elit. Duis aliquam a neque eu congue. Donec finibus felis vitae dui condimentum, sit amet placerat leo dapibus. In hac habitasse platea dictumst. Nunc tristique dolor vitae ipsum condimentum euismod. Morbi scelerisque ornare tortor in sodales. Duis ligula ex, tristique quis ultrices et, faucibus non metus.</p>
 									<ol start="5">
 										<li>Propriété du contenu</li>
 									</ol>
-									<p>Integer sed volutpat dolor, aliquam bibendum leo. In sed eros scelerisque, tempus augue a, viverra turpis. Nam pharetra ipsum velit, sollicitudin dapibus nulla cursus ut. Nulla facilisi. Ut lacinia dui non nunc placerat, vitae tristique dui luctus. Quisque eu lorem euismod, tristique mi in, porttitor risus. Nam ut nisi quis nisi vehicula scelerisque. Vivamus vestibulum nibh cursus, commodo sem sit amet, mattis odio.</p>
-									<ol start="6">
+									<p>Integer sed volutpat dolor, aliquam bibendum leo. In sed eros scelerisque, tempus augue a, viverra turpis. Nam pharetra ipsum velit, sollicitudin dapibus nulla cursus ut. Nulla facilisi. Ut lacinia dui non nunc placerat, vitae tristique dui luctus. Quisque eu lorem euismod, tristique mi in, porttitor risus. Nam ut nisi quis nisi vehicula scelerisque. Vivamus vestibulum nibh cursus, commodo sem sit amet, mattis odio.</p> -->
+									<ol start="3">
 										<li>Paiement</li>
 									</ol>
 									<p>Les prix affichés sur notre plateforme sont en monnaie locale et peuvent être sujets à des taxes, frais de traitement ou autres charges applicables, le cas échéant.</p>
 									<p>. Les paiements doivent être effectués en utilisant les méthodes de paiement acceptées sur notre plateforme. Les paiements en ligne sont sécurisés, mais nous ne sommes pas responsables des problèmes techniques liés aux fournisseurs de services de paiement..</p>
-									<ol start="7">
+									<!-- <ol start="7">
 										<li>Événements annulés, modifiés ou reportés</li>
 									</ol>
-									<p>Pellentesque at nisl lorem. Aliquam pretium diam ullamcorper ullamcorper suscipit. In consectetur scelerisque odio sit amet sagittis. Nunc viverra justo vel ante placerat pharetra. Quisque eget est et tortor molestie iaculis. Proin a quam urna. Phasellus nec orci lacinia, egestas massa sed, pretium justo. Aliquam mauris arcu, rutrum vitae tortor ut, tincidunt scelerisque nisi. Suspendisse aliquam est nec malesuada rhoncus.</p>
-									<ol start="8">
+									<p>Pellentesque at nisl lorem. Aliquam pretium diam ullamcorper ullamcorper suscipit. In consectetur scelerisque odio sit amet sagittis. Nunc viverra justo vel ante placerat pharetra. Quisque eget est et tortor molestie iaculis. Proin a quam urna. Phasellus nec orci lacinia, egestas massa sed, pretium justo. Aliquam mauris arcu, rutrum vitae tortor ut, tincidunt scelerisque nisi. Suspendisse aliquam est nec malesuada rhoncus.</p> -->
+									<ol start="4">
 										<li>Annulation et remboursements</li>
 									</ol>
 									<p>Les conditions d'annulation et de remboursement varient en fonction de l'évènement et sont indiquées lors du processus de réservation ou d'achat. Veuillez lire attentivement ces conditions avant de procéder.</p>
-									<ol start="9">
+									<ol start="5">
 										<li>Utilisation non autorisée du Site</li>
 									</ol>
 									<p>Quisque eget est et tortor molestie iaculis. Proin a quam urna. Phasellus nec orci lacinia, egestas massa sed, pretium justo. Aliquam mauris arcu, rutrum vitae tortor ut, tincidunt scelerisque nisi. Suspendisse aliquam est nec malesuada rhoncus. Duis ligula ex, tristique quis ultrices et, faucibus non metus. Aliquam auctor in erat at tempus. Mauris finibus vitae justo et auctor. Integer dignissim erat lectus, quis porta tellus pretium ac. Ut in nunc ex.</p>
-									<ol start="10">
+									<!-- <ol start="10">
 										<li>Résiliation de compte</li>
 									</ol>
 									<p>hendrerit tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam lacinia facilisis ligula, blandit gravida elit sodales sit amet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur volutpat imperdiet malesuada.</p>
@@ -114,7 +119,7 @@
 									<ol start="14">
 										<li>Dispositions générales</li>
 									</ol>
-									<p>Quisque eget est et tortor molestie iaculis. Proin a quam urna. Phasellus nec orci lacinia, egestas massa sed, pretium justo. Aliquam mauris arcu, rutrum vitae tortor ut, tincidunt scelerisque nisi. Suspendisse aliquam est nec malesuada rhoncus.</p>
+									<p>Quisque eget est et tortor molestie iaculis. Proin a quam urna. Phasellus nec orci lacinia, egestas massa sed, pretium justo. Aliquam mauris arcu, rutrum vitae tortor ut, tincidunt scelerisque nisi. Suspendisse aliquam est nec malesuada rhoncus.</p> -->
 								</div>
 							</div>
 							<div class="tab-pane fade" id="buyer" role="tabpanel">
@@ -122,7 +127,7 @@
 									<h4>Conditions générales pour l'acheteur de tickets</h4>
 								</div>
 								<div class="terms-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie purus lorem, eget facilisis augue cursus eget. Aliquam posuere vehicula dignissim. Vivamus vitae odio consectetur, pharetra tortor ac, interdum urna. Cras leo mi, tincidunt non ultrices in, finibus ac dolor. Mauris tincidunt non metus id iaculis.</p>
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie purus lorem, eget facilisis augue cursus eget. Aliquam posuere vehicula dignissim. Vivamus vitae odio consectetur, pharetra tortor ac, interdum urna. Cras leo mi, tincidunt non ultrices in, finibus ac dolor. Mauris tincidunt non metus id iaculis.</p> -->
 									<ol>
 										<li>Qui nous sommes et ce que nous faisons</li>
 									</ol>
@@ -138,23 +143,23 @@
 											</ul>										
 										</li>
 									</ul>
-									<ol start="2">
+									<!-- <ol start="2">
 										<li>Achat de tickets ou d'inscriptions</li>
 									</ol>
-									<p>Mauris id ligula et est lacinia malesuada. Quisque leo purus, porttitor efficitur aliquet ac, dictum vitae eros. Pellentesque at nisl lorem. Aliquam pretium diam ullamcorper ullamcorper suscipit. In consectetur scelerisque odio sit amet sagittis. Nunc viverra justo vel ante placerat pharetra. Quisque eget est et tortor molestie iaculis. Proin a quam urna. Phasellus nec orci lacinia, egestas massa sed, pretium justo. Aliquam mauris arcu, rutrum vitae tortor ut, tincidunt scelerisque nisi. Suspendisse aliquam est nec malesuada rhoncus.</p>							
-									<ol start="3">
+									<p>Mauris id ligula et est lacinia malesuada. Quisque leo purus, porttitor efficitur aliquet ac, dictum vitae eros. Pellentesque at nisl lorem. Aliquam pretium diam ullamcorper ullamcorper suscipit. In consectetur scelerisque odio sit amet sagittis. Nunc viverra justo vel ante placerat pharetra. Quisque eget est et tortor molestie iaculis. Proin a quam urna. Phasellus nec orci lacinia, egestas massa sed, pretium justo. Aliquam mauris arcu, rutrum vitae tortor ut, tincidunt scelerisque nisi. Suspendisse aliquam est nec malesuada rhoncus.</p>							 -->
+									<ol start="2">
 										<li>Paiement</li>
 									</ol>
 									<p>Les prix affichés sur notre plateforme sont en monnaie locale et peuvent être sujets à des taxes, frais de traitement ou autres charges applicables, le cas échéant.</p>
 									<p>. Les paiements doivent être effectués en utilisant les méthodes de paiement acceptées sur notre plateforme. Les paiements en ligne sont sécurisés, mais nous ne sommes pas responsables des problèmes techniques liés aux fournisseurs de services de paiement..</p>
-									<ol start="4">
+									<ol start="3">
 										<li>Événements annulés, modifiés ou reportés</li>
 									</ol>
 									<p>En cas de modification, de report ou d'annulation d'un évènement, nous nous efforcerons de vous informer rapidement par les moyens de communication disponibles. Les options de remboursement ou de report seront traitées conformément aux politiques de l'organisateur de l'évènement.
 									</p>
 
 									<p>Les conditions d'annulation et de remboursement varient en fonction de l'évènement et sont indiquées lors du processus de réservation ou d'achat. Veuillez lire attentivement ces conditions avant de procéder.</p>
-									<ol start="5">
+									<!-- <ol start="5">
 										<li>Utilisation non autorisée</li>
 									</ol>
 									<p>In hac habitasse platea dictumst. Sed ultrices mauris quis condimentum dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce fermentum quis mi in vestibulum. Nullam volutpat nisl sed nibh ultricies, et lobortis mauris tristique. Cras aliquam nisi et turpis consectetur condimentum. Pellentesque sed ullamcorper sapien. Mauris nec augue eget ligula viverra aliquam. Ut a pellentesque metus. Integer ut elementum lorem. Sed bibendum fringilla orci, sed accumsan mauris egestas sed. Suspendisse elit sapien, cursus vitae congue at, hendrerit tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam lacinia facilisis ligula, blandit gravida elit sodales sit amet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur volutpat imperdiet malesuada.</p>
@@ -177,7 +182,7 @@
 									<ol start="10">
 										<li>Dispositions générales</li>
 									</ol>
-									<p>Quisque eget est et tortor molestie iaculis. Proin a quam urna. Phasellus nec orci lacinia, egestas massa sed, pretium justo. Aliquam mauris arcu, rutrum vitae tortor ut, tincidunt scelerisque nisi. Suspendisse aliquam est nec malesuada rhoncus.</p>
+									<p>Quisque eget est et tortor molestie iaculis. Proin a quam urna. Phasellus nec orci lacinia, egestas massa sed, pretium justo. Aliquam mauris arcu, rutrum vitae tortor ut, tincidunt scelerisque nisi. Suspendisse aliquam est nec malesuada rhoncus.</p> -->
 								</div>
 							</div>
 						</div>
